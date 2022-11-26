@@ -36,7 +36,8 @@ const Landing = () => {
 
     return (
         <div>  
-            <input className={styles.input} type="text" placeholder='Search' value={search} onChange={searchHandler}/>
+            <h1>Global market of cryptocurrencies</h1>
+            <input className={styles.input} type="text" placeholder='Search...' value={search} onChange={searchHandler}/>
             <p className={styles.Navbar}><span>Name Item </span><span>Symbol</span><span>Price</span><span>Market Cap</span><span>Price Change(24h)</span></p>
             {
                 coins.length ? 

@@ -7,17 +7,21 @@
 }
 .Navbar{
     height: 50px;
-    width: 52%;
+    width: 40%;
+    background: rgb(133, 132, 132);
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
     margin: 40px auto 5px;
     font-weight: bold;
+    padding: 0 38px;
     color: #eee;
-    text-shadow: 1px 1px 2px #818181,2px 1px 4px #000,0px 0px 6px #818181;
 
 }
+.Navbar span:nth-child(2){flex-basis: 180px}
 .input{
     width: 400px;
     margin-top: 50px;
@@ -34,4 +38,11 @@
     border-color: white;
     background-color: #fff;
     box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    color: orangered;
 }
